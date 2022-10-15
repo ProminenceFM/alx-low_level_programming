@@ -4,7 +4,7 @@
 /**
  *main-program will assign a random number to the variable n each time it is executed
  *
- *Return: always 0 for success 
+ *Return: always 0 for success
 */
 int main(void)
 {
