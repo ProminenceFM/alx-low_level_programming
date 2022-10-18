@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main-program entry point(program to print all possible combination of a single digit number).
+ *main-(program to print all possible combination of a single digit number).
  *Return:always 0 for success.
- */
+*/
 int main(void)
 {
 	int num;
