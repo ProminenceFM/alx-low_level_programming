@@ -4,7 +4,8 @@
  *
  * return: always 0 for success.
 */
-int main(void)
+int _putchar()
 {
-	printf("_putchar\n")
+	printf("_putchar\n");
+	return 0;
 }
