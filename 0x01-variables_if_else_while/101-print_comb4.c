@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main-progrtam entry point
- * Return: 
-always 0 for success.
- */
+ * main-program entry point
+ * Return:print 0 for success 
+*/
 int main(void)
 {
 	int m, i, j;
