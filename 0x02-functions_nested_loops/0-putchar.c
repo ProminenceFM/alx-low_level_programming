@@ -4,7 +4,7 @@
  *
  * return: always 0 for success.
 */
-intmain(void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
@@ -16,4 +16,5 @@ _putchar('a');
 _putchar('r');
 _putchar('\');
 _putchar('n');
+return 0;
 }
