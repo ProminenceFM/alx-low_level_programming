@@ -23,7 +23,7 @@ void print_remaining_days(int m, int d, int y)
 	}
 	else
 	{
-		if (m == 2 && day == 60)
+		if (m == 2 && d == 60)
 		{
 			printf("Invalid date: %02d/%02d/%04d\n", m, d - 31, y);
 		}
