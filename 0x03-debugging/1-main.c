@@ -9,7 +9,6 @@
 int main(void)
 {
 	printf("commencing infinite loop......\n")
-	
 	i = 0;
 
 	while (i < 10)
@@ -18,6 +17,5 @@ int main(void)
 	}
 
 	printf("infiniteloop escaped \\o/\n");
-
 	return (0);
 }
