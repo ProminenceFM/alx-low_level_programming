@@ -2,7 +2,7 @@
 /**
  * main - program that prints _putchar
  *
- * return: always 0 for success.
+ * Return: always 0 for success.
 */
 int main(void)
 {
@@ -14,7 +14,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar('\');
-_putchar('n');
+_putchar('\n');
 return (0);
 }
