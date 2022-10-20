@@ -13,7 +13,7 @@ void print_remaining_days(int m, int d, int y)
 {
 	if ((y % 400 == 0) || (y % 4 == 0 && 100 != 0))
 	{
-		if (month >= 3 && day >= 60)
+		if (m >= 3 && d >= 60)
 		{
 			d++;
 		}
