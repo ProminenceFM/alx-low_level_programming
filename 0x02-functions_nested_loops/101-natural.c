@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints natural numbers 
+ * main - prints natural numbers
  *
  * Return: Always 0 for success
 */
@@ -15,8 +15,6 @@ int main(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
 	}
-
 	printf("%d\n", sum);
-
 	return (0);
 }
