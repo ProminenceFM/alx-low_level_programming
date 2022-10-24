@@ -1,0 +1,1 @@
+testing arrays and pointers
