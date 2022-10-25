@@ -30,7 +30,7 @@ int _atoi(char *s)
 	for (i = count - size; i < count; i++)
 	{
 		x = x + ((*(s + i) - 48) * z);
-		Z /= 10;
+		z /= 10;
 	}
 	return (x * z);
 }
