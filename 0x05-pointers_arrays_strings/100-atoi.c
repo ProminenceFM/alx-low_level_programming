@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- *_atoi- function that convert a string to an integer.
- *@s: string to convert
- *Return: integer value
-*/
-
+ * _atoi - function to converts a string to an integer.
+ * @s: input string.
+ * Return: integer.
+ */
 int _atoi(char *s)
 {
-	unsigned int count = 0, size = 0, x = 0, y = 1, z = 1, i;
+	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
 
 	while (*(s + count) != '\0')
 	{
@@ -16,12 +15,12 @@ int _atoi(char *s)
 			break;
 
 		if (*(s + count) == '-')
-			y *= -1;
+			pn *= -1;
 
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
 		{
 			if (size > 0)
-				z *= 10;
+				m *= 10;
 			size++;
 		}
 		count++;
@@ -29,8 +28,8 @@ int _atoi(char *s)
 
 	for (i = count - size; i < count; i++)
 	{
-		x = x + ((*(s + i) - 48) * z);
-		z /= 10;
+		oi = oi + ((*(s + i) - 48) * m);
+		m /= 10;
 	}
-	return (x * z);
+	return (oi * pn);
 }
