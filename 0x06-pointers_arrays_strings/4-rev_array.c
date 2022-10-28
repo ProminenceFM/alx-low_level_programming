@@ -2,8 +2,8 @@
 
 /**
  *reverse_array - function to print reverse of an array
- *a: array considered
- *n: values
+ *@a: array considered
+ *@n: values
  *Return: void
  */
 

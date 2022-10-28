@@ -3,9 +3,9 @@
 /**
  * _strncpy - function to copy stringd
  * @dest: destination considered
- * @src: source 
+ * @src: source
  * @n: charscter considered
- * Retirn: copied
+ * Return: copied
 */
 
 char *_strncpy(char *dest, char *src, int n)

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat.c - function that contenates two strin
+ * _strncat - function that contenates two strin
  * using at most n nytes from src
  * @dest: caracter considered
  * @src: character considered
